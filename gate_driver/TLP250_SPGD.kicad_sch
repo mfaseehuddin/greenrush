@@ -1,0 +1,4205 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7d064446-5cf4-4406-bd55-b5d649382a98")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:UF5400"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UF5400"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UF5400_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UF5400_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Driver_FET:TLP250"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLP250"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOSFET Driver IGBT Driver Optocoupler"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLP250_0_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -5.08 7.62) (xy -5.08 -7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -0.635) (xy -4.445 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -0.635) (xy -5.715 0.635) (xy -4.445 0.635) (xy -5.08 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.508) (xy -2.54 0.508) (xy -2.921 0.381) (xy -2.921 0.635) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.508) (xy -2.54 -0.508) (xy -2.921 -0.635) (xy -2.921 -0.381) (xy -2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -0.635 -0.635) (xy -1.905 -0.635) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy -1.905 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 6.35)
+					(end 0.635 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 6.35)
+					(end 0.635 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -6.35) (xy 0.635 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 -6.35) (xy 0 -6.35) (xy 0 6.35) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 5.715) (xy 3.175 1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 4.445) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -4.445) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -5.715) (xy 3.175 -1.905) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 2.159) (xy 4.191 2.667) (xy 4.699 1.651) (xy 3.683 2.159) (xy 3.683 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.953 -1.905) (xy 4.445 -1.397) (xy 3.937 -2.413) (xy 4.953 -1.905) (xy 4.953 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.08 7.62)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 3.175 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 6.604 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 3.175 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -7.62)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.604 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 0.635 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 2.54) (xy 6.604 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TLP250_1_1"
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "VEE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Capacitors:100nF_Ceramic"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF_Ceramic"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF Ceramic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitor 104 100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100nF_Ceramic_0_1"
+				(rectangle
+					(start -0.762 2.286)
+					(end -0.508 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.508 2.286)
+					(end 0.762 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "100nF_Ceramic_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Capacitors:10nF_Ceramic"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10nF_Ceramic"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10nF Ceramic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitor 103 10nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10nF_Ceramic_0_1"
+				(rectangle
+					(start -0.762 2.286)
+					(end -0.508 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.508 2.286)
+					(end 0.762 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "10nF_Ceramic_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Capacitors:47uF_25V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47uF_25V"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+				(at 0.762 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "47uF, 25V Electrolytic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Electrolytic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_THT:CP_Radial_D5.0mm_* Capacitor_THT:CP_Radial_D4.0mm_* Capacitor_THT:CP_Radial_D6.3mm_* Capacitor_THT:CP_Radial_D7.5mm_* Capacitor_THT:CP_Radial_D8.0mm_* Capacitor_THT:CP_Radial_D10.0mm_* Capacitor_THT:CP_Radial_D14.0mm_* Capacitor_THT:CP_Radial_D16.0mm_* Capacitor_THT:CP_Radial_D18.0mm_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "47uF_25V_0_0"
+				(text "+"
+					(at -2.032 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "-"
+					(at 2.032 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "47uF_25V_0_1"
+				(rectangle
+					(start -1.016 -2.286)
+					(end -0.508 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 -2.286)
+					(end 1.016 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "47uF_25V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.7)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.7)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:10k"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10kΩ, 1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10k_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10k_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:150ohm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "150ohm"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150Ω, 1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "150ohm_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "150ohm_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Resistor"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 95.25 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06dbb9ed-d607-44ef-a1a2-8d4e87910bcf")
+	)
+	(junction
+		(at 99.06 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eda4b09-0b84-4f22-8198-7bbd5947449f")
+	)
+	(junction
+		(at 95.25 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a9eea5d-5050-4660-bbd1-fd0acbf7565e")
+	)
+	(junction
+		(at 99.06 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229dc396-ba8d-4dbc-b1e7-0e37d4037d3b")
+	)
+	(junction
+		(at 133.35 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "512a6b82-a632-44c8-9798-389dda008196")
+	)
+	(junction
+		(at 95.25 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e828f33-59bc-4630-ac57-0e311a18d75b")
+	)
+	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "630d4c53-97e6-4249-871d-c35e578cf73b")
+	)
+	(junction
+		(at 133.35 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69dcbd41-26e5-4076-813f-772332591a62")
+	)
+	(junction
+		(at 133.35 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7de3cd54-2735-4446-b65d-bca12c302fb1")
+	)
+	(junction
+		(at 102.87 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7febea8b-40a3-4e53-8d85-9a1719a11604")
+	)
+	(junction
+		(at 105.41 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "812417a4-224f-4ef9-9fc5-5291795767f8")
+	)
+	(junction
+		(at 127 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a04f26c1-3ccd-4f5f-ac4e-f631bd4ec9a3")
+	)
+	(junction
+		(at 87.63 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ca8315-869c-40fd-a291-9c74c27b0997")
+	)
+	(junction
+		(at 95.25 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7f0b9df-8c3d-4fd5-ae8f-bf1bdd1c8cce")
+	)
+	(junction
+		(at 105.41 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb25c1fa-987f-473c-b570-c6fa10093959")
+	)
+	(junction
+		(at 87.63 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d73251f7-6955-49e7-9a5e-d6fa3d2c2f68")
+	)
+	(junction
+		(at 127 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d2cf3c-3ca6-4855-94a1-98a70855e2df")
+	)
+	(junction
+		(at 102.87 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6d0402f-b215-443b-8d0b-16401ae29083")
+	)
+	(junction
+		(at 133.35 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9240a7f-7bdf-4ec0-8bff-9afa0a3d963b")
+	)
+	(junction
+		(at 127 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcfb21e5-5269-40e3-b2ba-bf8cfa316aa5")
+	)
+	(wire
+		(pts
+			(xy 87.63 88.9) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a27bd5-38be-4707-924a-0dc829aa1ab5")
+	)
+	(wire
+		(pts
+			(xy 95.25 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08edd20b-dd12-40bd-a584-7c796ebe06d8")
+	)
+	(wire
+		(pts
+			(xy 95.25 73.66) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097179c1-d1d3-421f-bc98-a4b70756f3ad")
+	)
+	(wire
+		(pts
+			(xy 64.77 73.66) (xy 67.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8d885e-ec38-4570-81cb-c56a7e83786a")
+	)
+	(wire
+		(pts
+			(xy 127 135.89) (xy 127 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b8b621-a66a-4d41-bfff-25491b58f505")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cda2ce-2491-469c-ac6d-32244ceff84b")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92) (xy 67.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2672e0a1-b88e-4bf6-813f-8714476b8098")
+	)
+	(wire
+		(pts
+			(xy 102.87 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2830df06-3f9a-470d-85bd-d23f4db3d87c")
+	)
+	(wire
+		(pts
+			(xy 87.63 121.92) (xy 95.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302a3ced-c3a9-4ca6-983e-98f68568d514")
+	)
+	(wire
+		(pts
+			(xy 102.87 129.54) (xy 102.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dc683a-398a-469c-bc11-fe71f7a736b6")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bd06dc-0524-4234-889d-8b638baed0f1")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376eadad-565b-44b9-a3bb-46bcf23a3b67")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4043b834-b0f2-45b4-8797-b5bd95c23a3e")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aff0a33-858d-4d26-b476-3d6cfd17b383")
+	)
+	(wire
+		(pts
+			(xy 95.25 121.92) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1a7c20-c75d-4fe1-b4fd-254479fef97c")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fac06c8-2d60-4b58-af2d-9692d76c43ca")
+	)
+	(wire
+		(pts
+			(xy 102.87 137.16) (xy 127 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51439306-b16e-4831-bc05-7fdcf542209c")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cc23b2-1c0c-4e5f-a002-bf54fe0f7279")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ce879f-9dcc-42c9-b684-fb80972e9030")
+	)
+	(wire
+		(pts
+			(xy 46.99 137.16) (xy 67.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f297df-608e-4ab6-ba7e-d1103f5284cf")
+	)
+	(wire
+		(pts
+			(xy 146.05 137.16) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b384615-06e2-4c2b-a0e6-e053f917d930")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e41532b-864a-42ab-9e11-350e9e2f460c")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6155217d-8663-498d-bf53-9579d9cc44e9")
+	)
+	(wire
+		(pts
+			(xy 119.38 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69962551-5f9a-47ab-b149-5a0caf99af73")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 102.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e64e7f3-820e-4027-8a51-747c3195ef0b")
+	)
+	(wire
+		(pts
+			(xy 46.99 73.66) (xy 46.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de38204-f230-4bb4-8bea-a4c42a031524")
+	)
+	(wire
+		(pts
+			(xy 146.05 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8061d528-344e-489f-b9dd-ae805fd42d88")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f14798-ff02-45bd-a10c-440b61aa2205")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854437b3-9034-4324-93c7-d2f519136f64")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9a245b-e6d7-4f3a-aa73-c69a4934732b")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908e1b1d-c842-4eb2-9372-fe705a36f235")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910b47df-6044-42ae-8d86-05b60a1b9b14")
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 102.87 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9489b857-7e61-4473-935f-b7ce7d6308b5")
+	)
+	(wire
+		(pts
+			(xy 106.68 121.92) (xy 105.41 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95dc7f5c-e86f-4128-85fc-5cd6557011e6")
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96196c99-835d-4065-b22b-5ff3c2bf5f26")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994f2b87-31d9-45bf-816f-97b2f3b6f326")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 90.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3ae1bb-d415-4165-ad7c-9b1fb644c18c")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d393ec7-7574-4236-a0af-ec34c4a98ef4")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e53a537-ee63-4bce-9cea-161f9d0699cc")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f50b53f-767c-40d7-9152-2d78e41fb701")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13c381f-faa1-4557-9b6f-b71ae370466d")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ca47a3-bbdc-4f9e-bb7f-ebadfe9523d4")
+	)
+	(wire
+		(pts
+			(xy 146.05 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abca796e-b2a8-4ef7-b60b-b96adf07af51")
+	)
+	(wire
+		(pts
+			(xy 95.25 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7d49e2-009b-40fe-9136-8626c74a6450")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adacc3f5-31fc-4752-9495-072cfb1ada81")
+	)
+	(wire
+		(pts
+			(xy 57.15 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeea59be-4160-4e74-b07b-25ec8c746644")
+	)
+	(wire
+		(pts
+			(xy 105.41 127) (xy 111.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b148eb8c-50f3-4155-bac8-c6c580431782")
+	)
+	(wire
+		(pts
+			(xy 87.63 127) (xy 87.63 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6410584-283f-4909-9087-64f6530b31b3")
+	)
+	(wire
+		(pts
+			(xy 77.47 58.42) (xy 77.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b796450b-9704-44e0-adf6-f6871cf72264")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 105.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1a0060-7e6f-4ce3-9c90-1dc7d5d24ae0")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb994c6b-a7ac-4a4c-8d34-78422e47c094")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.66) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe43ba8-8533-4163-8f7a-2fc85c3ddd72")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 116.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25fe065-1354-49b2-a782-4376fbdcc69a")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c943c490-8f2d-4da2-a314-d2fdd6433e25")
+	)
+	(wire
+		(pts
+			(xy 133.35 127) (xy 133.35 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ab9482-e4bc-4f6d-8bb9-7b7b5f1a7375")
+	)
+	(wire
+		(pts
+			(xy 95.25 135.89) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1e235b-d8b8-47f5-accc-2cd6f18b7ff0")
+	)
+	(wire
+		(pts
+			(xy 87.63 127) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced817e2-76ec-4e33-b0f0-9f72491e2636")
+	)
+	(wire
+		(pts
+			(xy 53.34 121.92) (xy 55.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ab2bc8-4dd2-456f-aef7-087a8e54923f")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9609f41-3951-4d27-8580-66b9a249007c")
+	)
+	(wire
+		(pts
+			(xy 105.41 121.92) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2029bd2-b5fb-4c4e-899f-399e27a0f08a")
+	)
+	(wire
+		(pts
+			(xy 53.34 88.9) (xy 53.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e859b5da-f41a-4d36-bfe9-495dd55b9e6d")
+	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14cece9-089f-4b1d-9a89-d34a0eb8718e")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 105.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa00c977-b825-4b44-a411-6ffec47aded3")
+	)
+	(wire
+		(pts
+			(xy 102.87 81.28) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb294840-2b7b-4aa8-8fc2-3458a16bc7f4")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd416dff-d71c-4e8c-90b6-04b0a11d3d24")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe476984-301c-4107-bef4-4a7b86b92f3f")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe319b7-463e-429c-9a74-7ac5b8fb6b50")
+	)
+	(hierarchical_label "HIN"
+		(shape bidirectional)
+		(at 46.99 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30268a6f-bb5d-4e20-b75e-49950f214d4b")
+	)
+	(hierarchical_label "Ref_LO"
+		(shape bidirectional)
+		(at 146.05 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40c9a37d-753c-4f80-a2f0-4a4a019abdc5")
+	)
+	(hierarchical_label "LIN"
+		(shape bidirectional)
+		(at 53.34 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6aaeb3df-514e-4209-a6a8-77c325d39ec9")
+	)
+	(hierarchical_label "Ref_HO"
+		(shape bidirectional)
+		(at 146.05 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fbad188-dd0d-4508-9c31-3cd78b0df4f1")
+	)
+	(hierarchical_label "Gate_LO"
+		(shape bidirectional)
+		(at 146.05 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c0386ae-ce8b-4bfa-b8dc-32c6f17cd6b8")
+	)
+	(hierarchical_label "V+"
+		(shape input)
+		(at 77.47 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9513c945-3bf2-401b-ac07-28db6b85ef3b")
+	)
+	(hierarchical_label "V+"
+		(shape input)
+		(at 77.47 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a81f702a-c19a-40d5-8d52-f4f678f877ec")
+	)
+	(hierarchical_label "Gate_HO"
+		(shape bidirectional)
+		(at 146.05 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c49fd337-1c47-4743-863a-8a2c8871a8e8")
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:10k")
+		(at 133.35 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "151ec0fc-9ca8-457f-8b87-24fc25602ec7")
+		(property "Reference" "R8"
+			(at 135.89 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.89 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 137.668 84.201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ, 1/4W Resistor"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca6a6219-1ba2-470b-8ab3-f6bbc05866ec")
+		)
+		(pin "2"
+			(uuid "215ec60c-6a8c-4600-b401-689ff8230bd6")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:10nF_Ceramic")
+		(at 127 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21335a9e-1d78-49de-9fe7-cb76b88016cd")
+		(property "Reference" "C6"
+			(at 124.206 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 123.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF Ceramic Capacitor"
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79ad1600-7684-4d82-b024-a62b873b1249")
+		)
+		(pin "1"
+			(uuid "82b718b2-3191-4a01-9b71-25f0af0b2dd5")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:UF5400")
+		(at 120.65 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "234ab350-2b24-4355-ba49-4a434d67edc2")
+		(property "Reference" "D3"
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4700H"
+			(at 120.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 120.65 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6504246-dbb4-4aec-8265-8b9a91430da8")
+		)
+		(pin "2"
+			(uuid "688a0b1d-f909-419b-ad07-e6eb8520270f")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:10k")
+		(at 133.35 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "483795c3-e509-477e-bbd9-9b98ee709d55")
+		(property "Reference" "R9"
+			(at 135.89 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.89 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 137.668 132.461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ, 1/4W Resistor"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ee756a4-dfaf-41ad-8dfa-ce7c6c00a88e")
+		)
+		(pin "2"
+			(uuid "8a0249c7-8260-41c0-80c9-f55e09f05daf")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:UF5400")
+		(at 120.65 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d3d653e-e35d-43ed-862f-781f6f611146")
+		(property "Reference" "D2"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4700H"
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 120.65 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca0a887d-037a-4acf-94db-02485c4bb72f")
+		)
+		(pin "2"
+			(uuid "ef7e328d-9fda-47ad-aa81-e183a4bbb828")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:10nF_Ceramic")
+		(at 127 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64a73572-a4e6-4771-b3f9-c276e8c4e32d")
+		(property "Reference" "C5"
+			(at 124.206 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF Ceramic Capacitor"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c5311b8-49bb-40ed-972a-03999bbcde0f")
+		)
+		(pin "1"
+			(uuid "f43c3de1-2e2f-42b2-bd71-700d81bcb7ab")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 83.82 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c849d1-e8db-4428-84ef-ff2462ec6b3c")
+		(property "Reference" "R3"
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10ohm"
+			(at 83.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 84.709 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 84.328 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f050d7b-e4f6-42fc-8393-988e9746575d")
+		)
+		(pin "1"
+			(uuid "935b2b50-6c5a-4f75-ba99-04af9cde349c")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:100nF_Ceramic")
+		(at 95.25 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95d4bde4-89ea-4b7c-b067-cc0e048fcd8e")
+		(property "Reference" "C1"
+			(at 92.456 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF Ceramic Capacitor"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed2b1731-b74a-445f-a6da-efc0db319767")
+		)
+		(pin "2"
+			(uuid "bfb616c1-40f9-4212-8301-a7dfd55f7897")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:47uF_25V")
+		(at 102.87 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ee2a57-1b5f-46da-a561-34daeb834995")
+		(property "Reference" "C4"
+			(at 100.076 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 99.314 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+			(at 99.06 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47uF, 25V Electrolytic Capacitor"
+			(at 102.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "994484ba-8edd-4d37-bccf-b069b270a460")
+		)
+		(pin "2"
+			(uuid "537386ce-a1be-4238-b5ae-74b154290205")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 110.49 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5875328-c90b-4521-bd3b-898b54bde29b")
+		(property "Reference" "R4"
+			(at 110.49 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.6ohm"
+			(at 110.236 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 111.379 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.998 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 110.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1fdc461-21c9-4fd8-ba04-05b28e256374")
+		)
+		(pin "1"
+			(uuid "091176dd-f05a-41b1-930f-eb2e93999f8b")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:150ohm")
+		(at 59.69 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc957389-9191-4791-ad45-28c6e096102f")
+		(property "Reference" "R1"
+			(at 59.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150ohm"
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 60.579 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.198 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150Ω, 1/4W Resistor"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5dc58cd-6b55-4cf2-a7d8-f7aeca8030a7")
+		)
+		(pin "1"
+			(uuid "afb5d3d3-4a87-467e-9b7a-41e392555114")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:150ohm")
+		(at 60.96 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc26f329-f409-4dbf-8325-0f43ff0e2deb")
+		(property "Reference" "R2"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150ohm"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 60.071 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.452 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150Ω, 1/4W Resistor"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984111fd-0805-4fd2-99e4-f1711afc8780")
+		)
+		(pin "2"
+			(uuid "668593d4-3213-4845-9b46-5ba68e5eb5da")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:TLP250")
+		(at 77.47 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de5605f5-96e5-4afc-84ba-cb076b339e91")
+		(property "Reference" "U2"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP250"
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 77.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 75.184 129.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
+			(at 77.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3a6ce51f-0409-4ec7-8efd-deba41c5904c")
+		)
+		(pin "2"
+			(uuid "290c5725-ff1f-48f6-97ec-e8e86dd719fd")
+		)
+		(pin "3"
+			(uuid "d4823166-95f2-403a-8dfa-f6eaf9e36be6")
+		)
+		(pin "8"
+			(uuid "6d62edef-17ae-4d14-9d27-e37cdce46186")
+		)
+		(pin "1"
+			(uuid "21a0d2d7-37e9-4dfe-a070-89902741d667")
+		)
+		(pin "6"
+			(uuid "7da5ebd3-97ab-4446-84b6-502f8141c534")
+		)
+		(pin "7"
+			(uuid "994b53dd-0bb7-4fbb-9a0b-3273f4c63471")
+		)
+		(pin "5"
+			(uuid "3c32f65f-0a26-462a-be62-51b784783e39")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 93.98 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def9216d-8e70-4256-8a11-7240a25d65a1")
+		(property "Reference" "D1"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4700H"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e38482f2-f313-4643-93ad-538e562c25ec")
+		)
+		(pin "2"
+			(uuid "34a487f5-929d-4b80-9949-9adce773e40e")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 115.57 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4f78d76-e517-4cbe-8b02-dff825c2f24e")
+		(property "Reference" "R7"
+			(at 115.57 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10ohm"
+			(at 115.57 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 116.459 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.078 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d32226ac-d903-4531-aef9-e59c0726e94f")
+		)
+		(pin "1"
+			(uuid "091c402e-8408-4654-baa8-ea2068b02a09")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:47uF_25V")
+		(at 102.87 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e843adb6-027d-4e1a-830e-897a724c9621")
+		(property "Reference" "C3"
+			(at 100.076 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 99.314 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+			(at 99.06 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47uF, 25V Electrolytic Capacitor"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f901e37d-1e6b-4239-b867-273f2515f82e")
+		)
+		(pin "2"
+			(uuid "1c1a2b4b-c243-4881-a6ca-03351fae689c")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:100nF_Ceramic")
+		(at 95.25 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef043bfa-4fac-4adc-8a97-8140ed5c62ee")
+		(property "Reference" "C2"
+			(at 92.456 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 99.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF Ceramic Capacitor"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9908f4f3-8ed5-465f-b48d-747771e32cce")
+		)
+		(pin "2"
+			(uuid "0acb00a6-4a77-4bf9-94f1-e6b480b210ed")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:TLP250")
+		(at 77.47 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05ea9d0-7317-4323-a116-2942bdab34b3")
+		(property "Reference" "U1"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP250"
+			(at 77.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 75.184 81.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb7567df-1170-49d4-9d20-908ee54d3e52")
+		)
+		(pin "7"
+			(uuid "3f595313-f08d-4a3f-8241-fff3e9176d93")
+		)
+		(pin "5"
+			(uuid "687f71ea-3776-4daf-b294-f92b122317a8")
+		)
+		(pin "3"
+			(uuid "762791e5-8826-4a7e-bef5-96176aad3c47")
+		)
+		(pin "1"
+			(uuid "7f55df50-2bfd-4aa5-ac46-6408a8c7db93")
+		)
+		(pin "4"
+			(uuid "d1eb6889-21a3-45da-afe8-52df8e98dd82")
+		)
+		(pin "8"
+			(uuid "8a0d66ed-d0f2-4751-af61-7a7fb22dd317")
+		)
+		(pin "6"
+			(uuid "22be6d43-aac1-4436-a3e0-8fe9daceff79")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 110.49 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa0ceb97-8287-48f4-a762-f0964314ac8b")
+		(property "Reference" "R5"
+			(at 110.49 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.6ohm"
+			(at 110.236 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 111.379 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.998 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c495f812-d67d-42c9-9209-78200feedc7c")
+		)
+		(pin "1"
+			(uuid "ab4350c7-0be3-4ef7-8892-24adbfef5b55")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 115.57 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd78f6b6-5f70-47be-bde4-cf9579f2507a")
+		(property "Reference" "R6"
+			(at 115.57 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10ohm"
+			(at 115.57 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 116.459 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.078 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ba8877b-1173-44f8-b8f8-ab7c18004c29")
+		)
+		(pin "1"
+			(uuid "ae1a6eca-5bcd-4c85-95df-0af3c025e8f1")
+		)
+		(instances
+			(project "gate_driver"
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/045fce5c-7245-40f8-b2b2-c667e78dd134"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/8d384d8d-079d-4833-8de0-ed9e254b679c"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/c55db8b4-47e6-4af4-9399-16c3bcdca690/67f064ee-4744-4139-9434-f290bca2a781/a4a92489-d40c-4fee-a8b9-f0bf3ca7a400"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
